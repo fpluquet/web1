@@ -1,0 +1,134 @@
+/* Animations d'en-tête */
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1s ease-out forwards;
+}
+
+.slide-in {
+  transform: translateX(-100%);
+  opacity: 0;
+  animation: slideIn 1s ease-out forwards;
+  animation-delay: 0.5s;
+}
+
+/* Icônes pulsantes */
+.pulsing-icon {
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+.pulsing-icon:nth-child(2) { animation-delay: 0.2s; }
+.pulsing-icon:nth-child(3) { animation-delay: 0.4s; }
+.pulsing-icon:nth-child(4) { animation-delay: 0.6s; }
+
+/* Animation machine à écrire */
+.typewriter p {
+  overflow: hidden;
+  border-right: 2px solid var(--primary-color);
+  white-space: nowrap;
+  margin: 0 auto;
+  animation: typing 3.5s steps(40, end),
+  blink-caret 0.75s step-end infinite;
+}
+
+/* Texte arc-en-ciel */
+.rainbow-text p {
+  animation: rainbow 8s linear infinite;
+}
+
+/* Loader */
+.loader .circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  animation: bounce 0.5s alternate infinite;
+}
+
+.loader .circle:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.loader .circle:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+/* Menu Burger animation */
+.burger-menu.active .burger-icon span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.burger-menu.active .burger-icon span:nth-child(2) {
+  opacity: 0;
+}
+
+.burger-menu.active .burger-icon span:nth-child(3) {
+  transform: rotate(-45deg) translate(7px, -7px);
+}
+
+/* Boutons animés */
+.animated-btn.fill:hover {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.animated-btn.outline:hover {
+  box-shadow: inset 0 0 0 2em var(--primary-color);
+  color: white;
+}
+
+.animated-btn.shadow:hover {
+  box-shadow: 0 0 10px var(--primary-color);
+}
+
+.animated-btn.scale:hover {
+  transform: scale(1.1);
+}
+
+/* Keyframes */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  50% { border-color: var(--primary-color); }
+}
+
+@keyframes rainbow {
+  0% { color: red; }
+  14% { color: orange; }
+  28% { color: yellow; }
+  42% { color: green; }
+  56% { color: blue; }
+  70% { color: indigo; }
+  84% { color: violet; }
+  100% { color: red; }
+}
+
+@keyframes bounce {
+  from { transform: translateY(0); }
+  to { transform: translateY(-20px); }
+}

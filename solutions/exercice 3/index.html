@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Facture - MonEntreprise</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <div class="client-info">
+    <h2>Client :</h2>
+    <p>M. Jean Dupont</p>
+    <p>123 rue des Lilas</p>
+    <p>75000 Paris</p>
+  </div>
+
+  <div class="date">
+    <p>Date : 15 février 2024</p>
+  </div>
+
+  <h1>FACTURE</h1>
+
+  <table>
+    <thead>
+    <tr>
+      <th>Référence</th>
+      <th>Nom produit</th>
+      <th class="number">Quantité</th>
+      <th class="number">Prix H.T.</th>
+      <th class="number">Total H.T.</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>REF001</td>
+      <td>Ordinateur portable</td>
+      <td class="number">1</td>
+      <td class="number">799,99 €</td>
+      <td class="number">799,99 €</td>
+    </tr>
+    <tr>
+      <td>REF002</td>
+      <td>Souris sans fil</td>
+      <td class="number">2</td>
+      <td class="number">29,99 €</td>
+      <td class="number">59,98 €</td>
+    </tr>
+    <tr>
+      <td>REF003</td>
+      <td>Clavier mécanique</td>
+      <td class="number">1</td>
+      <td class="number">89,99 €</td>
+      <td class="number">89,99 €</td>
+    </tr>
+    </tbody>
+    <tfoot>
+    <tr class="total-tva">
+      <td colspan="3"></td>
+      <td class="number">TVA (20%)</td>
+      <td class="number">189,99 €</td>
+    </tr>
+    <tr class="total">
+      <td colspan="3"></td>
+      <td class="number">Total TTC</td>
+      <td class="number">1139,95 €</td>
+    </tr>
+    </tfoot>
+  </table>
+
+
+  <div class="remerciement">
+    <p>Nous vous remercions de votre confiance et espérons vous revoir bientôt dans notre magasin !</p>
+  </div>
+</div>
+</body>
+</html>

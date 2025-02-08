@@ -1,0 +1,44 @@
+/* Styles pour le mode sombre */
+[data-theme="dark"] {
+  --text-color: #fff;
+  --background-color: #222;
+  --card-background: #333;
+}
+
+/* Toggle switch */
+.theme-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.theme-toggle input {
+  display: none;
+}
+
+.theme-toggle label {
+  cursor: pointer;
+  padding: 10px;
+  background: #444;
+  border-radius: 20px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.theme-toggle i {
+  color: #fff;
+}
+
+.theme-toggle .fa-sun {
+  display: none;
+}
+
+.theme-toggle input:checked ~ label .fa-sun {
+  display: block;
+}
+
+.theme-toggle input:checked ~ label .fa-moon {
+  display: none;
+}

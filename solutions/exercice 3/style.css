@@ -1,0 +1,104 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.client-info {
+  margin-bottom: 30px;
+}
+
+.client-info h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.client-info p {
+  margin: 5px 0;
+}
+
+.date {
+  text-align: right;
+  margin-bottom: 30px;
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin: 20px 0 30px 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+}
+
+th {
+  background-color: #2c3e50;
+  color: white;
+  padding: 12px;
+  text-align: left;
+}
+
+td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+.total-tva, .total {
+  font-weight: bold;
+}
+
+.number {
+  text-align: right;
+}
+
+th.number {
+  text-align: right;
+}
+
+td.number {
+  text-align: right;
+}
+
+.total-tva td, .total td {
+  text-align: right;
+}
+
+
+.remerciement {
+  text-align: center;
+  margin-top: 40px;
+  font-style: italic;
+  color: #666;
+}
+
+/* Effet hover sur les lignes du tableau */
+tbody tr:hover {
+  background-color: #f5f5f5;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  .container {
+    padding: 15px;
+  }
+
+  table {
+    font-size: 14px;
+  }
+
+  th, td {
+    padding: 8px;
+  }
+}

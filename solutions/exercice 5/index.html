@@ -1,0 +1,70 @@
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Nouvelle facture</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div>
+  <h1>Nouvelle facture</h1>
+
+  <p>Bienvenue chez NOO.</p>
+
+  <h2>Fournisseur</h2>
+  <fieldset>
+    <select>
+      <option>Fournisseur 1</option>
+      <option>Fournisseur 2</option>
+      <option>Fournisseur 3</option>
+      <option>Fournisseur 4</option>
+    </select>
+  </fieldset>
+
+  <h2>Informations personnelles</h2>
+  <fieldset>
+
+    <input type="radio" name="type" id="personnel" checked>
+    <label for="personnel">Personnel</label>
+    <input type="radio" name="type" id="professionnel">
+    <label for="professionnel">Professionnel</label>
+    <br><br>
+
+    <label for="tva">Numéro TVA:</label><br>
+    <input type="text" id="tva"><br>
+
+    <label for="prenom">Prénom:</label><br>
+    <input type="text" id="prenom"><br>
+
+    <label for="nom">Nom:</label><br>
+    <input type="text" id="nom"><br><br>
+
+    <input type="radio" name="genre" id="male" checked>
+    <label for="male">Homme</label><br>
+    <input type="radio" name="genre" id="female">
+    <label for="female">Femme</label><br>
+    <input type="radio" name="genre" id="other">
+    <label for="other">Autre</label><br><br>
+
+    <label for="email">Email :</label><br>
+    <input type="email" id="email"><br>
+
+    <label for="telephone">Téléphone :</label><br>
+    <input type="tel" id="telephone"><br>
+
+    <label for="adresse">Adresse :</label><br>
+    <textarea id="adresse" rows="2"></textarea><br>
+
+    <label for="carte">Carte de paiement :</label><br>
+    <input type="text" id="carte">
+
+    <label for="sauverCarte">
+      <input type="checkbox" id="sauverCarte">
+      Sauvegarder ma carte de paiement</label>
+  </fieldset>
+
+  <br>
+  <input type="submit" value="Valider">
+  <input type="reset" value="Réinitialiser">
+</div>
+</body>
+</html>
