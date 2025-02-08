@@ -26,8 +26,8 @@ Créez une page web pour une notice du jeu Mikado, en HTML contenant :
 
 Rendez la page la plus esthétique possible en utilisant le CSS. Vous pouvez utiliser des couleurs, des polices, des bordures, des marges, des ombres, des dégradés, des images de fond, etc. pour rendre la page plus agréable à lire.
 
-Exemple de solution : [[Code]](https://github.com/fpluquet/web1/tree/master/solutions/exercice%201){:target="_blank"}
-[[Voir le site]](https://fpluquet.github.io/web1/solutions/exercice%201){:target="_blank"}
+Exemple de solution : [[Code]](https://github.com/fpluquet/web1/tree/master/solutions/exercice%201)
+[[Voir le site]](https://fpluquet.github.io/web1/solutions/exercice%201)
 
 ---
 
