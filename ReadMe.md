@@ -26,7 +26,8 @@ Créez une page web pour une notice du jeu Mikado, en HTML contenant :
 
 Rendez la page la plus esthétique possible en utilisant le CSS. Vous pouvez utiliser des couleurs, des polices, des bordures, des marges, des ombres, des dégradés, des images de fond, etc. pour rendre la page plus agréable à lire.
 
-Solution possible : https://fpluquet.github.io/web1/solutions/exercice%201
+Exemple de solution : [[Code]](https://github.com/fpluquet/web1/tree/master/solutions/exercice%201)
+[[Voir le site]](https://fpluquet.github.io/web1/solutions/exercice%201)
 
 ---
 
@@ -50,7 +51,8 @@ Dans chaque page, vous mettrez :
 
 Le but est de créer un ensemble de liens permettant de « jouer » avec une ambiance graphique. Vous pouvez même ajouter quelques sons d’ambiance.
 
-Solution possible : https://fpluquet.github.io/web1/solutions/exercice%202
+Exemple de solution : [[Code]](https://github.com/fpluquet/web1/tree/master/solutions/exercice%202)
+[[Voir le site]](https://fpluquet.github.io/web1/solutions/exercice%202)
 
 ---
 
@@ -69,7 +71,8 @@ Créer une page de type facture, en HTML, au format suivant :
     - Une ligne (et deux colonnes !) en gras avec le total TVA
     - Une ligne de remerciement d’achat dans votre magasin
 
-Solution possible : https://fpluquet.github.io/web1/solutions/exercice%203
+Exemple de solution : [[Code]](https://github.com/fpluquet/web1/tree/master/solutions/exercice%203)
+[[Voir le site]](https://fpluquet.github.io/web1/solutions/exercice%203)
 
 ---
 
@@ -79,7 +82,8 @@ Créez la page suivante en utilisant les balises `div`, `h1`, `h2`, `p`, `fields
 
 ![facture.png](resources/images/facture.png)
 
-Solution possible : https://fpluquet.github.io/web1/solutions/exercice%204
+Exemple de solution : [[Code]](https://github.com/fpluquet/web1/tree/master/solutions/exercice%204)
+[[Voir le site]](https://fpluquet.github.io/web1/solutions/exercice%204)
 
 ---
 
@@ -93,7 +97,8 @@ Le résultat doit être le plus proche possible de l’image ci-dessous :
 
 ![factureStyle.png](resources/images/factureStyle.png)
 
-Solution possible : https://fpluquet.github.io/web1/solutions/exercice%205
+Exemple de solution : [[Code]](https://github.com/fpluquet/web1/tree/master/solutions/exercice%205)
+[[Voir le site]](https://fpluquet.github.io/web1/solutions/exercice%205)
 
 ---
 
@@ -111,7 +116,8 @@ Les items du menu seront réactifs au passage de la souris (changement de couleu
 
 Un clic sur un des menus permettra de déplacer la page courante vers la section choisie (ajoutez du texte aléatoire, en utilisant [Lipsum](https://www.lipsum.com/) par exemple, dans chaque section pour avoir une page assez grande et scrollable).
 
-Solution possible : https://fpluquet.github.io/web1/solutions/exercice%206
+Exemple de solution : [[Code]](https://github.com/fpluquet/web1/tree/master/solutions/exercice%206)
+[[Voir le site]](https://fpluquet.github.io/web1/solutions/exercice%206)
 
 ---
 
@@ -125,7 +131,8 @@ Passez les 32 niveaux de [flukeout.github.io](https://flukeout.github.io/).
 
 Analysez le code contenu dans le dossier `solutions/exercice8`. Comprenez comment il fonctionne. Modifiez le code pour ajouter une animation de type `bounce` sur le texte `HELLO`.
 
-Solution possible : https://fpluquet.github.io/web1/solutions/exercice%208
+Exemple de solution : [[Code]](https://github.com/fpluquet/web1/tree/master/solutions/exercice%208)
+[[Voir le site]](https://fpluquet.github.io/web1/solutions/exercice%208)
 
 ---
 
