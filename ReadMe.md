@@ -49,7 +49,7 @@ Dans chaque page, vous mettrez :
 - Scénarisez vos pages web et prévoyez des choix plus complexes si la première page d’accueil du jeu demande un choix de personnage. Idéalement, prévoyez un schéma des liens de vos pages.
 - Exemple : « Vous ne pouvez pas passer par ce passage car il est trop étroit. Cependant, si vous êtes un nain, vous pouvez emprunter ce passage. »
 
-Le but est de créer un ensemble de liens permettant de « jouer » avec une ambiance graphique. Vous pouvez même ajouter quelques sons d’ambiance.
+Le but est de créer un ensemble de liens permettant de « jouer » avec une ambiance graphique.
 
 Exemple de solution : [[Code]](https://github.com/fpluquet/web1/tree/master/solutions/exercice%202)
 [[Voir le site]](https://fpluquet.github.io/web1/solutions/exercice%202)
