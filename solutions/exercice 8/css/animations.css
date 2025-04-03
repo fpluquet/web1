@@ -102,9 +102,9 @@
 }
 
 @keyframes pulse {
-  0% { transform: scale(1); }
-  50% { transform: scale(1.2); }
-  100% { transform: scale(1); }
+  0% { transform: scale(1); color: red;  }
+  25% { transform: scale(2); color: green; }
+  100% { transform: scale(1);color: blue; }
 }
 
 @keyframes typing {

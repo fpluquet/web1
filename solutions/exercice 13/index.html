@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Validation avec onchange</title>
+    <script>
+        function valider() {
+            const element = document.getElementById("texteValide");
+            const inputValue = document.getElementById("validation").value;
+            const expectedText = "je certifie avoir lu les conditions de vente";
+
+            if (inputValue === expectedText) {
+                element.innerHTML = "Texte validé !";
+            } else {
+                element.innerHTML = "Texte incorrect, veuillez réessayer.";
+            }
+        }
+    </script>
+</head>
+<body>
+    <p>
+        Recopiez le texte suivant : "je certifie avoir lu les conditions de vente"
+    </p>
+    <hr/>
+    <input
+        type="text"
+        id="validation"
+        placeholder="texte sans les guillemets"
+        style="width: 600px"
+        onchange="valider()"
+    />
+    <p id="texteValide">
+        Je ne peux pas valider les conditions pour le moment
+    </p>
+</body>
+</html>

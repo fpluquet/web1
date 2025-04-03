@@ -8,6 +8,10 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/animations.css">
   <link rel="stylesheet" href="css/dark-mode.css">
+  <script src="js/script.js" defer></script>
+  <script>
+    console.log("Bienvenue dans la console !");
+  </script>
 </head>
 <body>
 <!-- Toggle Mode Sombre -->
@@ -18,6 +22,16 @@
     <i class="fas fa-moon"></i>
   </label>
 </div>
+
+<script>
+  // Gestion du mode sombre
+  const darkModeToggle = document.getElementById('dark-mode-toggle');
+  darkModeToggle.addEventListener('change', () => {
+    document.body.setAttribute('data-theme',
+      darkModeToggle.checked ? 'dark' : 'light');
+  });
+
+</script>
 
 <!-- En-tête animé -->
 <header class="animated-header">
@@ -132,6 +146,5 @@
   </div>
 </section>
 
-<script src="js/script.js"></script>
 </body>
 </html>

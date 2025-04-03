@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Jeu SOS Spatial</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="game-container">
+        <h1>SOS Spatial</h1>
+        <p>Trouvez le vaisseau perdu dans la grille !</p>
+        <div id="grid" class="grid"></div>
+        <div class="controls">
+            <label for="x-coord">X :</label>
+            <input type="number" id="x-coord" min="1" max="8"/>
+            <label for="y-coord">Y :</label>
+            <input type="number" id="y-coord" min="1" max="8"/>
+            <button id="check-button">Vérifier</button>
+        </div>
+        <p id="feedback" class="feedback"></p>
+    </div>
+</body>
+</html>

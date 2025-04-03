@@ -3,6 +3,12 @@
   --text-color: #fff;
   --background-color: #222;
   --card-background: #333;
+
+  .animated-header {
+    h1, p {
+      color: black;
+    }
+  }
 }
 
 /* Toggle switch */

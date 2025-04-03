@@ -84,7 +84,7 @@ p {
 
 /* Style pour l'audio player */
 audio {
-  display: none;
+  visibility: hidden;
 }
 
 /* Animation pour les images au chargement */
