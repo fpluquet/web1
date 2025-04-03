@@ -365,7 +365,7 @@ Créez une page HTML avec un texte à recopier, un champ `input` de type `text` 
 
 En utilisant l’événement `onkeyup` sur le champ de texte, assurez-vous que l’utilisateur a saisi un texte donné correctement. Tant qu'il ne l'a pas fait, le paragraphe affiche un message d’erreur. Dès qu’il a saisi le texte correctement, le paragraphe affiche un message de validation.
 
-Voici la solution à laquelle vous devez arriver : [[Voir le site]](https://fpluquet.github.io/web1/solutions/exercice%212)
+Voici la solution à laquelle vous devez arriver : [[Voir le site]](https://fpluquet.github.io/web1/solutions/exercice%2012)
 
 Voici le code d’aide. Recopiez-le et lisez bien chaque ligne pour voir si vous comprenez le code proposé.
 
@@ -409,8 +409,8 @@ Voici le code d’aide. Recopiez-le et lisez bien chaque ligne pour voir si vous
 
 Ensuite, vous devez modifier les parties `/* ... */` pour que cela fonctionne comme attendu.
 
-Exemple de solution : [[Code]](https://github.com/fpluquet/web1/tree/master/solutions/exercice%212)
-[[Voir le site]](https://fpluquet.github.io/web1/solutions/exercice%212)
+Exemple de solution : [[Code]](https://github.com/fpluquet/web1/tree/master/solutions/exercice%2012)
+[[Voir le site]](https://fpluquet.github.io/web1/solutions/exercice%2012)
 
 --- 
 
@@ -421,8 +421,8 @@ Dans l’exercice précédent, utilisez maintenant l’événement `onchange` et
 Quel est la différence entre `onkeyup` et `onchange` ?
 
 
-Exemple de solution : [[Code]](https://github.com/fpluquet/web1/tree/master/solutions/exercice%213)
-[[Voir le site]](https://fpluquet.github.io/web1/solutions/exercice%213)
+Exemple de solution : [[Code]](https://github.com/fpluquet/web1/tree/master/solutions/exercice%2013)
+[[Voir le site]](https://fpluquet.github.io/web1/solutions/exercice%2013)
 
 ---
 
@@ -458,8 +458,8 @@ Allez plus loin en utilisant un attribut `data-...` sur chaque span pour stocker
 
 Dès que cela fonctionne, ajoutez un événement `onmouseenter` pour afficher le texte et un événement `onmouseleave` pour le cacher.
 
-Exemple de solution : [[Code]](https://github.com/fpluquet/web1/tree/master/solutions/exercice%214)
-[[Voir le site]](https://fpluquet.github.io/web1/solutions/exercice%214)
+Exemple de solution : [[Code]](https://github.com/fpluquet/web1/tree/master/solutions/exercice%2014)
+[[Voir le site]](https://fpluquet.github.io/web1/solutions/exercice%2014)
 
 
 ---
@@ -474,8 +474,8 @@ Créez une page web sur laquelle il y a un formulaire avec :
 
 Quand on clique sur le bouton `creationBouton`, un nouvel élément `<p>` est ajouté à la page avec comme texte la valeur du champ « texte » et la couleur de fond, la valeur du champ « couleur ».
 
-Exemple de solution : [[Code]](https://github.com/fpluquet/web1/tree/master/solutions/exercice%215)
-[[Voir le site]](https://fpluquet.github.io/web1/solutions/exercice%215)
+Exemple de solution : [[Code]](https://github.com/fpluquet/web1/tree/master/solutions/exercice%2015)
+[[Voir le site]](https://fpluquet.github.io/web1/solutions/exercice%2015)
 
 ---
 
@@ -495,8 +495,8 @@ Ne soyez pas surpris en vidant le champ d'obtenir `NaN` (Not a Number) dans le c
 
 Fixez ce problème en ajoutant une condition qui vérifie si le champ est vide ou non, pour ne pas afficher `NaN` (via la fonction `isNaN()`).
 
-Exemple de solution : [[Code]](https://github.com/fpluquet/web1/tree/master/solutions/exercice%216)
-[[Voir le site]](https://fpluquet.github.io/web1/solutions/exercice%216)
+Exemple de solution : [[Code]](https://github.com/fpluquet/web1/tree/master/solutions/exercice%2016)
+[[Voir le site]](https://fpluquet.github.io/web1/solutions/exercice%2016)
 
 ---
 
@@ -506,7 +506,7 @@ Vous devez coder un petit jeu simple : dans une grille de 8x8, l’ordinateur ca
 
 L’utilisateur saisit des coordonnées X et Y (utilisation de la fonction `window.prompt()` ou d’un champ input de type text) et l’ordinateur répond s’il y a un écho sur la ligne et la colonne (si le vaisseau est sur la ligne et/ou sur la colonne). Tant que l’objet n’est pas trouvé, on ressaisit les coordonnées.
 
-Pour mieux comprendre, jouez rapidement ici : [[Voir le site]](https://fpluquet.github.io/web1/solutions/exercice%217)
+Pour mieux comprendre, jouez rapidement ici : [[Voir le site]](https://fpluquet.github.io/web1/solutions/exercice%2017)
 
 
 #### Difficulté supplémentaire 1 :
@@ -515,8 +515,8 @@ Il serait utile de conserver un historique des coordonnées déjà saisies et em
 #### Difficulté supplémentaire 2 :
 Une représentation graphique du tableau avec les tests serait plus attirant. Le mot test serait remplacé par une image de sonde ou autre objet. Pour rappel, une table en HTML se dessine avec `<table><tr><td>` et du CSS.
 
-Exemple de solution : [[Code]](https://github.com/fpluquet/web1/tree/master/solutions/exercice%217)
-[[Voir le site]](https://fpluquet.github.io/web1/solutions/exercice%217)
+Exemple de solution : [[Code]](https://github.com/fpluquet/web1/tree/master/solutions/exercice%2017)
+[[Voir le site]](https://fpluquet.github.io/web1/solutions/exercice%2017)
 
 ---
 
@@ -566,8 +566,8 @@ f();
 
 Grâce à l’API [https://restcountries.com/](https://restcountries.com/), obtenez la liste de tous les pays qui parlent français et affichez-la dans une liste `<ul>` en HTML. Triez cette liste par ordre alphabétique.
 
-Exemple de solution : [[Code]](https://github.com/fpluquet/web1/tree/master/solutions/exercice%219)
-[[Voir le site]](https://fpluquet.github.io/web1/solutions/exercice%219)
+Exemple de solution : [[Code]](https://github.com/fpluquet/web1/tree/master/solutions/exercice%2019)
+[[Voir le site]](https://fpluquet.github.io/web1/solutions/exercice%2019)
 
 ---
 
@@ -581,8 +581,8 @@ Une fois les utilisateurs reçus, ils sont affichés dans la page et le bouton a
 
 Conseil : Pour éviter de devoir créer de nouvels éléments HTML pour chaque utilisateur, vous pouvez créer un élément `template` dans votre HTML. Il contiendra le code HTML de l’utilisateur et vous pourrez le cloner autant de fois que nécessaire pour afficher les utilisateurs. Cela permet de garder le code HTML et JS propre et d’éviter de devoir créer une structure HTML dans le JS.
 
-Exemple de solution : [[Code]](https://github.com/fpluquet/web1/tree/master/solutions/exercice%220)
-[[Voir le site]](https://fpluquet.github.io/web1/solutions/exercice%220)
+Exemple de solution : [[Code]](https://github.com/fpluquet/web1/tree/master/solutions/exercice%2020)
+[[Voir le site]](https://fpluquet.github.io/web1/solutions/exercice%2020)
 
 ---
 
@@ -590,5 +590,5 @@ Exemple de solution : [[Code]](https://github.com/fpluquet/web1/tree/master/solu
 
 Reprenez le code de l’exercice précédent et sauvegardez les derniers utilisateurs dans le `localStorage`. Lorsque la page est rechargée, vous récupérez ces utilisateurs pour les afficher directement.
 
-Exemple de solution : [[Code]](https://github.com/fpluquet/web1/tree/master/solutions/exercice%221)
-[[Voir le site]](https://fpluquet.github.io/web1/solutions/exercice%221)
+Exemple de solution : [[Code]](https://github.com/fpluquet/web1/tree/master/solutions/exercice%2021)
+[[Voir le site]](https://fpluquet.github.io/web1/solutions/exercice%2021)
