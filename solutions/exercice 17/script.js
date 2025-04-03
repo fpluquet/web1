@@ -64,8 +64,16 @@ function checkCoordinates() {
         feedback.textContent = "Félicitations ! Vous avez trouvé le vaisseau !";
         highlightCell(x, y, "found");
     } else {
-        feedback.textContent = `Un écho ${x === shipPosition.x ? "en ligne" : "pas de ligne"}, ${y === shipPosition.y ? "en colonne" : "pas de colonne"}.`;
-        highlightCell(x, y, "miss");
+        feedback.textContent = `${x === shipPosition.x ? "Écho en ligne" : "Pas d'écho en ligne"}. ${y === shipPosition.y ? "Écho en colonne" : "Pas d'écho en colonne"}.`;
+        if (x === shipPosition.x) {
+            highlightCell(x, y, "echo-row");
+        }
+        else if (y === shipPosition.y) {
+            highlightCell(x, y, "echo-column");
+        } else {
+            highlightCell(x, y, "miss");
+        }
+
     }
 }
 

@@ -94,3 +94,15 @@ button:hover {
     font-size: 14px;
     color: #333;
 }
+
+.echo-row {
+  background: linear-gradient(to right, #ffeb3b, #ffc107);
+  position: relative;
+  overflow: hidden;
+}
+
+.echo-column {
+  background: linear-gradient(to bottom, #ffeb3b, #ffc107);
+  position: relative;
+  overflow: hidden;
+}
