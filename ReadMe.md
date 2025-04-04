@@ -207,6 +207,8 @@ console.log(`Le nom avec le plus de lettres différentes est "${nomTrouvé}".`);
 
 </details>
 
+---
+
 ### Exercice 11 : Le langage
 
 Pour rappel, voici des exemples de fonction nommée, fonction anonyme, fonction anonyme courte :
