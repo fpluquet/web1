@@ -161,7 +161,7 @@ Affichez ensuite la plus grande différence entre les âges ainsi que le nom qui
 
 ```
 La plus grande différence d'âge entre deux personnes est de 15 ans.
-Le nom le plus long est "Dupont Jean".
+Le nom avec le plus de lettres différentes est "Dupont Jean".
 ```
 
 <details>
@@ -188,15 +188,21 @@ personnes.forEach((personne, index) => {
 const ages = personnes.map(personne => personne.age);
 const maxAgeDifference = Math.max(...ages) - Math.min(...ages);
 
-// Recherche du nom complet le plus long
-const nomLePlusLong = personnes.reduce((longest, personne) => {
-  const fullName = `${personne.nom} ${personne.prenom}`;
-  return fullName.length > longest.length ? fullName : longest;
+// Recherche du nom complet avec le plus de lettres différentes
+const nomsAvecLePlusDeLettresDiff = (nom1, nom2) => {
+  const lettresDiff1 = new Set(nom1.split('')).size;
+  const lettresDiff2 = new Set(nom2.split('')).size;
+  return lettresDiff1 > lettresDiff2 ? nom1 : nom2;
+};
+
+const nomTrouvé  = personnes.reduce((acc, personne) => {
+  const nomComplet = `${personne.nom} ${personne.prenom}`;
+  return nomsAvecLePlusDeLettresDiff(acc, nomComplet);
 }, "");
 
 // Affichage des résultats dans la console
 console.log(`La plus grande différence d'âge entre deux personnes est de ${maxAgeDifference} ans.`);
-console.log(`Le nom le plus long est "${nomLePlusLong}".`);
+console.log(`Le nom avec le plus de lettres différentes est "${nomTrouvé}".`);
 ```
 
 </details>
