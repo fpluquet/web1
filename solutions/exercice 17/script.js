@@ -78,8 +78,8 @@ function checkCoordinates() {
 }
 
 function highlightCell(x, y, status) {
-    const row = grid.children[y];
-    const cell = row.children[x];
+    const row = grid.children[x];
+    const cell = row.children[y];
     cell.classList.add(status);
 }
 
