@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.inputHolder {
+  margin: 0;
+  padding: 10px;
+}
+input {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+}
+input.highlight {
+  background-color: #e0f7fa;
+  border-color: #00796b;
+}
