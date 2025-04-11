@@ -420,6 +420,8 @@ Ensuite, vous devez modifier les parties `/* ... */` pour que cela fonctionne co
 Exemple de solution : [[Code]](https://github.com/fpluquet/web1/tree/master/solutions/exercice%2012)
 [[Voir le site]](https://fpluquet.github.io/web1/solutions/exercice%2012)
 
+Exemple de solution avec un code de qualité :[[Code]](https://github.com/fpluquet/web1/tree/master/solutions/exercice%2012/code%20de%20qualité)
+
 --- 
 
 ### Exercice 13 : Les événements
