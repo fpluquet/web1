@@ -585,7 +585,7 @@ Exemple de solution : [[Code]](https://github.com/fpluquet/web1/tree/master/solu
 
 Créez une page web qui affiche un seul bouton « Charger ».
 
-Une fois cliqué, le bouton affiche le texte « Chargement… » et la page va demander via une requête Ajax cent utilisateurs random à l’API [https://api.randomuser.me/](https://api.randomuser.me/).
+Une fois cliqué, le bouton affiche le texte « Chargement… » et la page va demander via une requête Ajax cent utilisateurs random à l’API [https://randomuser.me/](https://randomuser.me/).
 
 Une fois les utilisateurs reçus, ils sont affichés dans la page et le bouton affiche le texte « Recharger ».
 
